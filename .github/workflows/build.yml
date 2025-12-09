@@ -21,13 +21,11 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: "set up environment"
-        run: |
-          apt install openjdk-21-jre make
       # Checks-out your repository under $GITcreative_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-      - name: Set up Pack
+      - name: Set up environment and build packs
         run: |
+          sudo apt install openjdk-21-jre make
           make
           echo 'VERSION='$(cat pakku.json | head -n 3 | tail -n 1 | tail -c 8 | head -c -3) >> $GITHUB_ENV
       - name: Create Release
