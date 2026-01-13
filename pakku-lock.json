@@ -8,6 +8,49 @@
     },
     "projects": [
         {
+            "pakku_id": "qEw6388DXOGKSUmS",
+            "pakku_links": [
+                "6yZITXqGUQxfvR6V"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "audioplayer"
+            },
+            "name": {
+                "modrinth": "AudioPlayer"
+            },
+            "id": {
+                "modrinth": "SRlzjEBS"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "audioplayer-fabric-2.1.0+1.21.11.jar",
+                    "mc_versions": [
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/SRlzjEBS/versions/cxRGd2KF/audioplayer-fabric-2.1.0+1.21.11.jar",
+                    "id": "cxRGd2KF",
+                    "parent_id": "SRlzjEBS",
+                    "hashes": {
+                        "sha512": "81a1c432e51812e5ff7a2f3ea8030191d1f53ae4a3d42ab647358f52327e890c6d22b779c1ec02c5e92a3e438851d26aa6709dbb44af2d05fdd7c7d34e2f1dd4",
+                        "sha1": "ede0a671b05e238570c6d2c8fc462aa0876403e5"
+                    },
+                    "required_dependencies": [
+                        "9eGKb6K1"
+                    ],
+                    "size": 855395,
+                    "date_published": "2026-01-03T20:05:13.703944Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "0nUZvIKDwBnUnFEE",
             "type": "MOD",
             "side": "BOTH",
@@ -45,39 +88,44 @@
             ]
         },
         {
-            "pakku_id": "nbgE7xBHZZqHt6UE",
-            "type": "DATA_PACK",
-            "side": "SERVER",
+            "pakku_id": "Z8O60Jz2RQQmEaQE",
+            "pakku_links": [
+                "Zbz7XnOp2dtCYd5W"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "modrinth": "craftable-name-tag"
+                "modrinth": "clumps"
             },
             "name": {
-                "modrinth": "Craftable Name Tag"
+                "modrinth": "Clumps"
             },
             "id": {
-                "modrinth": "mi57UBwo"
+                "modrinth": "Wnxd13zP"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "CraftableNameTag.zip",
+                    "file_name": "Clumps-fabric-1.21.11-29.0.0.1.jar",
                     "mc_versions": [
                         "1.21.11"
                     ],
                     "loaders": [
-                        "datapack"
+                        "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mi57UBwo/versions/xTWCh8qd/CraftableNameTag.zip",
-                    "id": "xTWCh8qd",
-                    "parent_id": "mi57UBwo",
+                    "url": "https://cdn.modrinth.com/data/Wnxd13zP/versions/OgBE8Rz4/Clumps-fabric-1.21.11-29.0.0.1.jar",
+                    "id": "OgBE8Rz4",
+                    "parent_id": "Wnxd13zP",
                     "hashes": {
-                        "sha512": "394249fbebe91adf86cd01e34e0a3184fa2b8b207ea737133a4de338f10e25dd2c469f7329f6356cf92b8e5afe98fd27b1cd0a3855ba83b4ec1c06b1a1d2d970",
-                        "sha1": "83ccaade8c34641c20d7a0964fa453118924bf72"
+                        "sha512": "3cff3cd2d600a6d84030b38ce6244143d13774d5287627bb7312adae5edc7ae2d9151a2c9c39a00681c354d549b0a62ac48c0077ba586cc10c00d32f39e87f18",
+                        "sha1": "626fde9e970030cfc8cb64cd0a1abfc03d37ecc2"
                     },
-                    "required_dependencies": [],
-                    "size": 2424,
-                    "date_published": "2025-12-26T16:23:06.363331Z"
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 20355,
+                    "date_published": "2025-12-18T09:33:25.846810Z"
                 }
             ]
         },
@@ -187,6 +235,87 @@
                     "required_dependencies": [],
                     "size": 10193673,
                     "date_published": "2025-04-28T19:38:01.690690Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GDLKuUQRiAFXxgNA",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "dungeons-and-taverns"
+            },
+            "name": {
+                "modrinth": "Dungeons and Taverns"
+            },
+            "id": {
+                "modrinth": "tpehi7ww"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "dungeons-and-taverns-v5.1.0.jar",
+                    "mc_versions": [
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tpehi7ww/versions/rJ0Y6xDT/dungeons-and-taverns-v5.1.0.jar",
+                    "id": "rJ0Y6xDT",
+                    "parent_id": "tpehi7ww",
+                    "hashes": {
+                        "sha512": "fee86a3aca2bbb97f7c45926c1e6c1a5366f6f15242133bfe1a1f55bba8ef0f63dea092da1f61bfebd1ae448a05c2ba94ba61a349aa4ab61d990020d6a855154",
+                        "sha1": "09cca41971985fb9e137186bee6f4e23ec42a8f0"
+                    },
+                    "required_dependencies": [],
+                    "size": 38916351,
+                    "date_published": "2025-12-11T13:50:10.600509Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YFbI3MH0WWLX3Vnz",
+            "pakku_links": [
+                "Zbz7XnOp2dtCYd5W",
+                "XEBeRUg5FDzxw49H"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "elytra-trims"
+            },
+            "name": {
+                "modrinth": "Elytra Trims"
+            },
+            "id": {
+                "modrinth": "XpzGz7KD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "elytratrims-fabric-4.6.1+1.21.11.jar",
+                    "mc_versions": [
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XpzGz7KD/versions/blIGhB35/elytratrims-fabric-4.6.1+1.21.11.jar",
+                    "id": "blIGhB35",
+                    "parent_id": "XpzGz7KD",
+                    "hashes": {
+                        "sha512": "1ad0d5eb331e8ea720111e771d00a407b5741be4d777e0dd054f43c4f6dd9daf6a437ba5779c3bcbeb36dd4d4103bad47c92010025ee969b06e9a1d09abc81fd",
+                        "sha1": "e65e53663885c2e761f5c8aa48f89f04ba725d08"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "Ha28R6CL"
+                    ],
+                    "size": 816091,
+                    "date_published": "2025-12-25T13:41:58.615307Z"
                 }
             ]
         },
@@ -303,43 +432,6 @@
                     "required_dependencies": [],
                     "size": 7618852,
                     "date_published": "2025-12-16T16:56:52.260887Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "xDXU5S0GtYf5SOyH",
-            "type": "DATA_PACK",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "gravel-recipe"
-            },
-            "name": {
-                "modrinth": "Gravel Recipe"
-            },
-            "id": {
-                "modrinth": "79AOR0Oe"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "gravel-1.21.11-datapack.zip",
-                    "mc_versions": [
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "datapack"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/79AOR0Oe/versions/v2hgV4yZ/gravel-1.21.11-datapack.zip",
-                    "id": "v2hgV4yZ",
-                    "parent_id": "79AOR0Oe",
-                    "hashes": {
-                        "sha512": "24ee805b27dee6a9a1cadda5df081b8f88af2daccb4e8d1c3b1545f0433152c5251d08810feaf23391c0154a15deec3552c0a7b7d36b11c49b664620743134b7",
-                        "sha1": "0316dd1a0a23a2a9f943845cd2c45afb8be7578e"
-                    },
-                    "required_dependencies": [],
-                    "size": 970,
-                    "date_published": "2025-12-12T14:40:06.435246Z"
                 }
             ]
         },
